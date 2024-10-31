@@ -1,4 +1,5 @@
 name: "Yay internet!"
+output_dir: "."
 navbar:
   title: "Home"
   right:
@@ -14,6 +15,7 @@ navbar:
       href: http://github.com/Y-DDGX/
 
 output:
-  html_document
+  html_document:
+    theme: cosmo
   
   
