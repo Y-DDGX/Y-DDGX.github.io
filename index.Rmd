@@ -4,7 +4,7 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
+    theme: cosmo
 ---
 
 # Welcome to Yuchen's website 
@@ -16,5 +16,6 @@ output:
 
 I’m currently pursuing a Master’s in Public Health, specializing in Epidemiology, at Columbia University.
 
+My research primarily focuses on infectious diseases, especially HIV. I previously interned in the laboratory department at a hospital, and while the early mornings were a bit of an adjustment, I found the experience incredibly fulfilling. Putting on the white lab coat each day instilled a unique sense of responsibility—it wasn’t just a uniform; it was a commitment. Wearing it made me feel more dedicated to my work and more aware of the impact it could have. I’m passionate about contributing to the field of infectious disease prevention through research and data-driven insights.
 
-
+Learn More [About me]
