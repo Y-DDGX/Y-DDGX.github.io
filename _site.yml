@@ -1,5 +1,4 @@
 name: "Yay internet!"
-output_dir: "."
 navbar:
   title: "Home"
   right:
@@ -10,9 +9,8 @@ navbar:
     - text: "Dashboard"
       href: Dashboard.html
     - icon: fa-envelope fa-lg
-      href: mailto:<yg2964.cumc.columbia.edu>
+      href: mailto:yg2964@cumc.columbia.edu
     - icon: fa-github fa-lg
       href: http://github.com/Y-DDGX/
 output:
   html_document
-  theme: cosmo
