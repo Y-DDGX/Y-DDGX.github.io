@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "DDGX's home "
 output: 
   html_document:
     toc: true
@@ -18,6 +18,10 @@ I’m currently pursuing a Master’s in Public Health, specializing in Epidemio
 
 My research primarily focuses on infectious diseases, especially HIV. I previously interned in the laboratory department at a hospital, and while the early mornings were a bit of an adjustment, I found the experience incredibly fulfilling. Putting on the white lab coat each day instilled a unique sense of responsibility—it wasn’t just a uniform; it was a commitment. Wearing it made me feel more dedicated to my work and more aware of the impact it could have. I’m passionate about contributing to the field of infectious disease prevention through research and data-driven insights.
 
-Learn More [resume](resume.html)
+Learn More [resume](About.html)
 
+<br>
 
+**About the NY NOAA Weather Data**
+
+This [dashboard](Dashboard.html) uses data from the National Oceanic and Atmospheric Administration (NOAA) to explore weather trends across New York State. Through interactive plots, you can investigate relationships between temperature, precipitation, and seasonal changes. Dive in to see how New York’s climate varies throughout the year!

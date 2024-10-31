@@ -1,20 +1,19 @@
 ---
-title: 'NY NOAA Weather Data Analysis'
+title: "Plotly"
 output: 
-  flexdashboard::flex_dashboard:
-    orientation: columns
-    vertical_layout: fill
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cosmo
 ---
 
-```{r setup, include=FALSE}
-library(flexdashboard)
+## NY NOAA Weather Data Analysis
+```{r warning=FALSE,message=FALSE}
 library(plotly)
 library(dplyr)
 library(p8105.datasets)
 ```
 
-Column {data-width=650}
------------------------------------------------------------------------
 ```{r}
 data("ny_noaa", package = "p8105.datasets")
 set.seed(123) 
@@ -24,7 +23,6 @@ ny_noaa_sample <- ny_noaa |>
 ```
 
 ### Chart A. Maximum Temperature vs. Precipitation
-
 ```{r}
 scatter_plot <- ny_noaa_sample |> 
   plot_ly(x = ~tmax, y = ~prcp, type = 'scatter', mode = 'markers') |> 
@@ -35,11 +33,7 @@ scatter_plot <- ny_noaa_sample |>
 scatter_plot
 ```
 
-Column {data-width=350}
------------------------------------------------------------------------
-
 ### Chart B. Average Monthly Precipitation
-
 ```{r}
 monthly_precip <- ny_noaa |> 
   filter(!is.na(prcp)) |> 
@@ -71,4 +65,5 @@ box_plot <- temperature_data |>
 
 box_plot
 ```
+
 
