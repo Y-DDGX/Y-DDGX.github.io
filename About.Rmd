@@ -7,7 +7,7 @@ output:
     theme: cosmo
 ---
 
-## Yuchen Gu
+### Yuchen Gu
 <br>
 
 ### EDUCATION
@@ -15,29 +15,29 @@ I am a Master of Public Health (MPH) candidate at Columbia University’s Mailma
 
 <br>
 
-### Research
+### RESEARCH
 **Strategic Analysis of Pandemic Response Mechanisms Oct. 2022- Dec. 2022**
 
-  • Studied the definition, history, and core concepts of global health; basic principles of infectious disease epidemiology;             characteristics and difference of epidemics, endemics, and pandemics; responding to pandemics: HIV/AIDS and COVID-19.
+  • Studied the definition, history, and core concepts of global health; basic principles of infectious disease epidemiology;              characteristics and difference of epidemics, endemics, and pandemics; responding to pandemics: HIV/AIDS and COVID-19.
 
-  • Presented findings on Influenza A Viruses – H1N1 in the US and contributed to a research paper on public health threats posed by rabies.
+  • Presented findings on Influenza A Viruses – H1N1 in the US and contributed to a research paper on public health threats posed by       rabies.
 
 **Zoonotic Disease: Rabies   Toronto, Canada  Oct.2021- Dec. 2021**
 
-•	Mapped the rabies virus lifecycle, contributing to the understanding of its transmission and informing preventive strategies; Promoted rabies prevention through educational materials, highlighting the necessity due to the lack of post-exposure treatment.
+  •	Mapped the rabies virus lifecycle, contributing to the understanding of its transmission and informing preventive strategies;          Promoted rabies prevention through educational materials, highlighting the necessity due to the lack of post-exposure treatment.
 
 <br>
 
 ### INTERNSHIP
 **The Fourth People’s Hospital of Sichuan Province  Clinical Lab  Chengdu, China Aug. 2022-Feb. 2023**
 
-•	Performed culturing and sensitivity testing on a range of specimens including sputum, tissue, and blood, accurately identifying critical pathogens such as Chlamydia trachomatis and Mycoplasma.
+•	Performed culturing and sensitivity testing on a range of specimens including sputum, tissue, and blood, accurately identifying        critical pathogens such as Chlamydia trachomatis and Mycoplasma.
 
 •	Executed comprehensive testing for HIV, syphilis, and gonorrhea, significantly enhancing early and decisive patient intervention.
 
 •	Analyzed data on critical values and multi-drug resistance, informing the hospital’s treatment strategies.
 
-•	Oversaw sample inoculation and routine screenings, improving lab efficiency. Operated Hitachi 7180 biochemistry analyzer, managing the blood sampling room to ensure health standards and patient satisfaction.
+•	Oversaw sample inoculation and routine screenings, improving lab efficiency. Operated Hitachi 7180 biochemistry analyzer, managing     the blood sampling room to ensure health standards and patient satisfaction.
 
 <br>
 
