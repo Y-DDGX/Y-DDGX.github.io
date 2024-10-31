@@ -1,5 +1,5 @@
 ---
-title: "Dashboard"
+title: "NY NOAA Weather Data Analysis"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -8,29 +8,70 @@ output:
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
+library(plotly)
+library(dplyr)
+library(p8105.datasets)
 ```
 
 Column {data-width=650}
 -----------------------------------------------------------------------
+```{r}
+# Load the dataset
+data("ny_noaa", package = "p8105.datasets")
+set.seed(123) 
+ny_noaa_sample <- ny_noaa |> 
+  filter(!is.na(prcp)) |> 
+  sample_n(1000) 
 
-### Chart A
+```
+
+### Chart A. Maximum Temperature vs. Precipitation
 
 ```{r}
+scatter_plot <- ny_noaa_sample |> 
+  plot_ly(x = ~tmax, y = ~prcp, type = 'scatter', mode = 'markers') |> 
+  layout(title = "Scatter Plot of Temperature vs. Precipitation",
+         xaxis = list(title = "Max Temperature (tmax)"),
+         yaxis = list(title = "Precipitation (prcp)"))
 
+scatter_plot
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Chart B. Average Monthly Precipitation
 
 ```{r}
+monthly_precip <- ny_noaa |> 
+  filter(!is.na(prcp)) |> 
+  mutate(month = as.numeric(format(date, "%m"))) |> 
+  group_by(month) |> 
+  summarize(mean_prcp = mean(prcp, na.rm = TRUE))
 
+line_plot <- monthly_precip |> 
+  plot_ly(x = ~month, y = ~mean_prcp, type = 'scatter', mode = 'lines+markers') |> 
+  layout(title = "Average Monthly Precipitation",
+         xaxis = list(title = "Month"),
+         yaxis = list(title = "Average Precipitation (prcp)"))
+
+line_plot
 ```
 
-### Chart C
+### Chart C. Distribution of Temperatures by Month
 
 ```{r}
+temperature_data <- ny_noaa_sample |> 
+  filter(!is.na(tmax), !is.na(tmin)) |> 
+  mutate(month = as.numeric(format(date, "%m")))
 
+box_plot <- temperature_data |> 
+  plot_ly(x = ~factor(month), y = ~tmax, type = 'box', name = 'Max Temp') |> 
+  add_boxplot(y = ~tmin, name = 'Min Temp') |> 
+  layout(title = "Monthly Temperature Distribution",
+         xaxis = list(title = "Month"),
+         yaxis = list(title = "Temperature (tmax and tmin)"))
+
+box_plot
 ```
 
