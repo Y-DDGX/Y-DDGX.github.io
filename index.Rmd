@@ -1,0 +1,20 @@
+---
+title: ""
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Welcome to Yuchen's website 
+
+![](image/IMG_8486.GIF)
+
+
+**Hi there! I’m Yuchen.**
+
+I’m currently pursuing a Master’s in Public Health, specializing in Epidemiology, at Columbia University.
+
+
+
